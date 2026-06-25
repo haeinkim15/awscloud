@@ -12,6 +12,20 @@
 | Internet Gateway | `my-igw` | `my-vpc`에 연결 |
 | Route Table | `my-route` | 인터넷 게이트웨이로 기본 라우팅 |
 
+## AWS 콘솔 확인 내용
+
+제공된 VPC 리소스 맵 스크린샷에서 다음 구성이 확인되었습니다.
+
+- VPC `my-vpc`가 `Available` 상태입니다.
+- VPC IPv4 CIDR은 `10.0.0.0/16`입니다.
+- VPC 내부에 서브넷 2개가 있습니다.
+  - `my-sub01`: `ap-northeast-2a`
+  - `my-sub02`: `ap-northeast-2c`
+- 라우팅 테이블 2개가 생성되어 있습니다.
+- `my-route` 라우팅 테이블이 인터넷 게이트웨이 `my-igw`와 연결되어 있습니다.
+
+스크린샷 원본에는 AWS 계정 ID와 VPC ID 같은 식별자가 포함되어 있어 저장소에는 업로드하지 않았습니다.
+
 ## 보안 그룹
 
 | 이름 | VPC | 용도 |
