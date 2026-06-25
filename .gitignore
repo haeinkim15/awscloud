@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials
+config
+
+# Logs
+*.log
+logs/
+
+# Node/Python build artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
