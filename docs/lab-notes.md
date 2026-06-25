@@ -1,6 +1,4 @@
-# PDF 실습 기준 작업 노트
-
-이 프로젝트는 `AWS_Lab (1).pdf`의 Cloud Basic 실습 흐름을 바탕으로 정리했습니다.
+#실습 노트
 
 ## Lab 1: Network
 
