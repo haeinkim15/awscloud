@@ -69,15 +69,3 @@ Route Table
 - `docs/lab-notes.md`: PDF 실습 기준 작업 노트
 - `.gitignore`: Git에서 제외할 파일 목록
 
-## 보안 주의사항
-
-공개 GitHub 저장소에는 다음 정보를 올리지 않는 것이 좋습니다.
-
-- AWS 계정 ID
-- 액세스 키 또는 시크릿 키
-- `.pem` 키 파일
-- 인스턴스 ID
-- 퍼블릭 IP 주소
-- 퍼블릭 DNS 이름
-- 보안 그룹 ID
-- SSH 사용자명 또는 접속 세부 정보
